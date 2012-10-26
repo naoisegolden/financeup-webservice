@@ -1,6 +1,7 @@
 require 'sinatra'
 require './config/environment_variables.rb'
+require './config/settings.rb'
 
 get '/' do
-  'Hello world!'
+  erb :index
 end
